@@ -1,13 +1,16 @@
 <template>
     <div>
+        
         <v-app-bar
-        app
-        color="gris"
-        dark
+            dark
+            color="grey darken-3"
+            app
         >
-        <div class="d-flex justify-center align-center">
-            <p>Agenda tus Deberes</p>
-        </div>
+        <v-container>
+            <v-row class="justify-center">
+                <v-toolbar-title ><h1 class="display-1 font-weight-regular">Agenda</h1></v-toolbar-title>
+            </v-row>
+        </v-container>
         </v-app-bar>
 
         

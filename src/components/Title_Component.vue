@@ -1,11 +1,9 @@
 <template>
-    <v-container>
-        <v-row class="justify-center">
-            <v-col class="pa-2" cols="5" md="5">
-                <p class="text-center"> {{title}} </p>
-            </v-col>
-        </v-row>
-    </v-container>
+    <div>
+        
+        <p class="display-1 text-center"> {{title}} </p>
+
+    </div>
 </template>
 
 <script>
